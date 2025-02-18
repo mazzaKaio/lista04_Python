@@ -7,8 +7,10 @@ Se ele desejar, adicione o número ao total e se ele não quiser inclui-lo, não
 total = 0
 
 for i in range(5):
-    num = int(input("\nDigite o {}º número: ".format(i)))
+    num = int(input("\nDigite o {}º número: ".format(i + 1)))
     resposta = input("Você deseja incluir este número no total [s/n]: ").upper()
 
     if resposta.__eq__("S"):
         total += num
+
+print("\nTotal da soma: {}".format(total))
