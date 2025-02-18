@@ -3,5 +3,7 @@
 
 num = int(input("Digite um número ABAIXO DE 50: "))
 
-for i in range(num):
+if num < 50:
     
+    for i in range(50):
+        
