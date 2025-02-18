@@ -4,4 +4,6 @@ num = int(input("Digite o número que você deseja consultar a tabuada: "))
 
 for i in range(11):
     resultado = num * i
-    print("{} x {} = {}".format(num, i, resultado)) 
+    print("{} x {} = {}".format(num, i, resultado))
+
+print("Kaio Gomes do Nascimento Mazza")

@@ -4,6 +4,9 @@
 num = int(input("Digite um número ABAIXO DE 50: "))
 
 if num < 50:
+    for i in range(50, num - 1, -1):
+        print(i)
+else:
+    print("Número digitado maior do que 50!")
     
-    for i in range(50):
-        
+print("Kaio Gomes do Nascimento Mazza")

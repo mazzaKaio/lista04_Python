@@ -20,3 +20,5 @@ elif direcaoDesejada[0].__eq__("a"):
     
     else:
         print("Número inserido não é menor do que 20!")
+
+print("Kaio Gomes do Nascimento Mazza")
