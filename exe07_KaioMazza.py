@@ -12,4 +12,5 @@ else:
     for i in range(3):
         print("Número muito alto!")
 
+print("\nFim do programa!")    
 print("Kaio Gomes do Nascimento Mazza")

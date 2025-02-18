@@ -15,4 +15,5 @@ for i in range(5):
 
 print("\nTotal da soma: {}".format(total))
 
+print("\nFim do programa!")    
 print("Kaio Gomes do Nascimento Mazza")

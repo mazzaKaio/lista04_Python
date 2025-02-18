@@ -24,4 +24,5 @@ elif direcaoDesejada[0].__eq__("a"):
 else:
     print("Direção inválida!")
 
+print("\nFim do programa!")    
 print("Kaio Gomes do Nascimento Mazza")

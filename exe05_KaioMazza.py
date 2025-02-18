@@ -6,4 +6,5 @@ for i in range(11):
     resultado = num * i
     print("{} x {} = {}".format(num, i, resultado))
 
+print("\nFim do programa!")    
 print("Kaio Gomes do Nascimento Mazza")

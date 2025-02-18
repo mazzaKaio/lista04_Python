@@ -7,4 +7,5 @@ num = int(input("Digite um número (inteiro): "))
 for i in range(num):
     print(nome)
 
+print("\nFim do programa!")    
 print("Kaio Gomes do Nascimento Mazza")

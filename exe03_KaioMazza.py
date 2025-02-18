@@ -3,4 +3,5 @@ nome = input("Digite seu nome: ")
 for i in range(len(nome)):
     print(nome[i])
 
+print("\nFim do programa!")    
 print("Kaio Gomes do Nascimento Mazza")

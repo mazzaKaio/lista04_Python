@@ -9,4 +9,5 @@ for i in range(num):
     for x in range(len(nome)):
         print(nome[x])
     
+print("\nFim do programa!")    
 print("Kaio Gomes do Nascimento Mazza")

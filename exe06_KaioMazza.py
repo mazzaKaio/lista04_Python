@@ -8,5 +8,6 @@ if num < 50:
         print(i)
 else:
     print("Número digitado maior do que 50!")
-    
+
+print("\nFim do programa!")    
 print("Kaio Gomes do Nascimento Mazza")
