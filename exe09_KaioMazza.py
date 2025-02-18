@@ -17,8 +17,11 @@ if direcaoDesejada[0].__eq__("c"):
 elif direcaoDesejada[0].__eq__("a"):
     num = int(input("Digite um número ABAIXO de 20: "))
     if num <= 20:
-    
+        for i in range(20, num - 1, -1):
+            print(i)
     else:
         print("Número inserido não é menor do que 20!")
+else:
+    print("Direção inválida!")
 
 print("Kaio Gomes do Nascimento Mazza")
