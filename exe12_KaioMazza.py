@@ -37,3 +37,6 @@ for i in range(len(horariosDisponiveis)):
     if confirmacao[0].__eq__("n"):
         print("\nEncerrando programa...")
         break
+
+print("\nFim do programa!")
+print("Kaio Gomes do Nascimento Mazza")

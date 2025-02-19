@@ -29,3 +29,6 @@ for tarefa in statusTarefas:
         tarefasNaoC += 1
     
 print("\nTarefas adicionadas: {}\nTarefas concluidas: {}\nTarefas não concluidas: {}".format(len(tarefas), tarefasConcluidas, tarefasNaoC))
+
+print("\nFim do programa!")
+print("Kaio Gomes do Nascimento Mazza")
