@@ -3,6 +3,7 @@
 
 nome = input("Digite seu nome: ")
 num = int(input("Digite um número (inteiro): "))
+print("\n")
 
 for i in range(num):
     print(nome)
