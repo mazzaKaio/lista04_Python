@@ -25,7 +25,15 @@ for i in range(qntHorarios):
     horarioDesejado = input("\nDigite o horário que você deseja [HH:MM]: ")
     try:
         verificacao = horariosDisponiveis.index(horarioDesejado)
-        horariosDisponiveis.remove(horarioDesejado)
-        print("{} foi agendado com sucesso!".format(horarioDesejado))
     except:
         print("Horário '{}' não encontrado ou digitado errado!".format(horarioDesejado))
+        continue
+
+    horariosDisponiveis.remove(horarioDesejado)
+    print("{} foi agendado com sucesso!".format(horarioDesejado))
+
+    confirmacao = input("Você deseja agendar outro horario [sim/s, nao/n]? ").lower()
+
+    if confirmacao[0].__eq__("n"):
+        print("\nEncerrando programa...")
+        break
