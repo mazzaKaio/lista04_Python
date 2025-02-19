@@ -20,7 +20,7 @@ for i in range(qntHorarios):
     horariosDisponiveis.append(horario)
 
 print("\n----Área da cliente:")
-for i in range(qntHorarios):
+for i in range(len(horariosDisponiveis)):
     print("Horários disponiveis: {}".format(horariosDisponiveis))
     horarioDesejado = input("\nDigite o horário que você deseja [HH:MM]: ")
     try:
